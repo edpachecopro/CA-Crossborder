@@ -1,0 +1,84 @@
+body{
+
+   background-image: url("../images/bg.jpg");
+   background-repeat:  no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100vh;
+}
+h1{
+  color: rgb(174, 174, 174);
+  margin-bottom: 30px;
+}
+
+.box-login{
+  width: 750px;
+  height: 400px;
+  background-color: white ;
+  opacity: 0.9;
+
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%); /* Firefox */
+  -ms-transform: translate(-50%, -50%);  /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
+  -o-transform: translate(-50%, -50%); /* Opera */
+  transform: translate(-50%, -50%);
+
+  border-radius: 100px 0px 100px 0px;
+
+
+}
+
+.box-form {
+  /* Centralizar na vertical e na horizontal */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%); /* Firefox */
+  -ms-transform: translate(-50%, -50%);  /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
+  -o-transform: translate(-50%, -50%); /* Opera */
+  transform: translate(-50%, -50%);
+}
+
+.input{
+
+  width: 500px;
+  height: 60px;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(190, 190, 190);
+
+}
+
+
+
+
+         
+.btn-login {
+  background-image: linear-gradient(to right, #ADD100 0%, #7B920A  51%, #ADD100  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 30px;
+  border: none;
+  display: block;
+}
+
+.btn-login:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
